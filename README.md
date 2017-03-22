@@ -2,7 +2,7 @@
 
 ![Image of Teamwox logo](http://www.teamwox.com/b/logo.gif)
 
-**tw-api** is PHP Web API for [Teamwox Groupware](http://www.teamwox.com) by [MetaQuotes](https://www.metaquotes.net).
+**tw-api** is PHP Web API for [Teamwox Groupware](http://www.teamwox.com) from [MetaQuotes](https://www.metaquotes.net).
 
 Usage:
 
