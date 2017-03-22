@@ -16,7 +16,7 @@ $streamHandler = new StreamHandler('logs/tw.log', Logger::INFO);
 $logger->pushHandler($streamHandler);
 
 $teamwox = new Gate([
-        'sessionId'           => uniqid(),
+        'sessionId' => uniqid(),
         'logger'   => $logger, 
         'baseUri'  => $config['baseUrl'],
         'login'    => $config['login'],
