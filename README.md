@@ -1,11 +1,15 @@
 # tw-api
-PHP Web API for Teamwox Groupware by MetaQuotes
 
+![Image of Teamwox logo](http://www.teamwox.com/b/logo.gif)
+
+**tw-api** is PHP Web API for [Teamwox Groupware](http://www.teamwox.com) by [MetaQuotes](https://www.metaquotes.net).
+
+Usage:
 
 ```php
 $taskId = 1087;
 
-$content = 'Test commet';
+$content = 'Test comment';
 
 $logger        = new Logger('TeamWoxGate');
 $streamHandler = new StreamHandler('logs/tw.log', Logger::INFO);
