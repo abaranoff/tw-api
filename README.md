@@ -16,27 +16,31 @@ $streamHandler = new StreamHandler('logs/tw.log', Logger::INFO);
 $logger->pushHandler($streamHandler);
 
 $teamwox = new Gate([
-        'sessionId' => uniqid(),
-        'logger'   => $logger, 
-        'baseUri'  => $config['baseUrl'],
-        'login'    => $config['login'],
-        'password' => $config['password']
-    ]);
+    'sessionId' => uniqid(),
+    'logger'   => $logger, 
+    'baseUri'  => $config['baseUrl'],
+    'login'    => $config['login'],
+    'password' => $config['password']
+]);
 
-    $teamwox->comment2task($taskId, $content,
-        [[
-            'contents' => 'hello',
-            'filename' => 'filename1.txt'
-        ], [
-            'contents' => fopen(__FILE__, "r")
-        ]]
-    );
+$teamwox->comment2task($taskId, $content,
+    [[
+        'contents' => 'hello',
+        'filename' => 'filename1.txt'
+    ], [
+        'contents' => fopen(__FILE__, "r")
+    ]]
+);
 ```
 
 See working example in examples/post.php.
 
+# Changelog:
 
-
+v.0.1
+Initial release. 
+- Supports posting to Teamwox tasks and servicedesks as comments.
+- Supports attachments to posts
 
 
 TEAMWOX is a trademark of METAQUOTES SOFTWARE CORP.
