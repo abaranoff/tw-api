@@ -114,21 +114,21 @@ class Gate
     /**
      * Adds message as comment to Teamwox task
      *
-     * Example:
+     * Example of attachment configuration:
      *
      * $attachments = [
      *     [
-     *         'contents' => fopen('/path/to/file', 'r')
+     *         'contents' => fopen('/path/to/file', 'r') // supports streams
      *     ],
      *     [
-     *         'contents' => 'hello',
+     *         'contents' => 'hello', // supports content of the file
      *         'filename' => 'filename.txt'
      *     ]
      * ];
      *
-     * @param string $taskId
-     * @param string $content
-     * @param array $attachments
+     * @param string $taskId Task ID where to post comment
+     * @param string $content Post content
+     * @param array $attachments Optional list of attachments
      *
      * @return boolean
      */
@@ -168,21 +168,21 @@ class Gate
     /**
      * Adds message as comment to Teamwox servicedesk
      *
-     * Example:
+     * Example of attachment configuration:
      *
      * $attachments = [
      *     [
-     *         'contents' => fopen('/path/to/file', 'r')
+     *         'contents' => fopen('/path/to/file', 'r') // supports streams
      *     ],
      *     [
-     *         'contents' => 'hello',
+     *         'contents' => 'hello', // supports content of the file
      *         'filename' => 'filename.txt'
      *     ]
      * ];
      *
-     * @param string $serviceDeskId
-     * @param string $content
-     * @param array $attachments
+     * @param string $serviceDeskId Servicedesk ID where to post comment
+     * @param string $content Post content
+     * @param array $attachments Optional list of attachments
      *
      * @return boolean
      */
