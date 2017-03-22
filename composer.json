@@ -1,0 +1,13 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "monolog/monolog": "^1.22"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Teamwox\\": "src/teamwox/",
+            "TeamWox\\Exception\\": "src/teamwox/exception"
+        }
+    }
+}
