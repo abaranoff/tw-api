@@ -34,3 +34,9 @@ $teamwox = new Gate([
 ```
 
 See working example in examples/post.php.
+
+
+
+
+
+TEAMWOX is a trademark of METAQUOTES SOFTWARE CORP.
