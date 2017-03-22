@@ -1,0 +1,18 @@
+# Files
+*.log
+/composer.lock
+
+# Logs
+/logs/*
+
+# Failed postings
+/failed-postings/*
+
+# Vendors
+/vendor/*
+
+#IDE
+.idea/
+
+# Logs
+/example/config.php
