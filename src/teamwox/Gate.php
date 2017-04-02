@@ -6,14 +6,14 @@
 
 namespace Teamwox;
 
-use TeamWox\Exception\BadLoggerException;
-use TeamWox\Exception\BadBaseUrlException;
-use TeamWox\Exception\BadAttachmentsException;
-use TeamWox\Exception\AuthorizationException;
-use TeamWox\Exception\BadCredentialsException;
-use TeamWox\Exception\SessionIdException;
-use TeamWox\Exception\ServicedeskPostException;
-use TeamWox\Exception\TaskPostException;
+use Teamwox\Exception\BadLoggerException;
+use Teamwox\Exception\BadBaseUrlException;
+use Teamwox\Exception\BadAttachmentsException;
+use Teamwox\Exception\AuthorizationException;
+use Teamwox\Exception\BadCredentialsException;
+use Teamwox\Exception\SessionIdException;
+use Teamwox\Exception\ServicedeskPostException;
+use Teamwox\Exception\TaskPostException;
 
 use Psr\Log\LoggerInterface;
 use GuzzleHttp\Client;

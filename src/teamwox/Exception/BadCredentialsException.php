@@ -4,7 +4,7 @@
  * @date: 18.03.2017 16:27
  */
 
-namespace TeamWox\Exception;
+namespace Teamwox\Exception;
 
 /**
  * Bad credentials for TeamWox

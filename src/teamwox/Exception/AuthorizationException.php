@@ -4,7 +4,7 @@
  * @date: 18.03.2017 16:31
  */
 
-namespace TeamWox\Exception;
+namespace Teamwox\Exception;
 
 /**
  * Teamwox Authorization failure
