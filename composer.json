@@ -1,13 +1,15 @@
 {
+    "name": "alfaforex/tw-api",
+    "license": "MIT",
+    "description": "Teamwox client API",
+    "minimum-stability": "stable",
     "require": {
-        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/guzzle": "^6.0",
         "psr/log": "^1.0"
     },
-
     "require-dev": {
         "monolog/monolog": "^1.22"
     },
-
     "autoload": {
         "psr-4": {
             "Teamwox\\": "src/"
